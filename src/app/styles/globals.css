@@ -1,3 +1,71 @@
 body {
     min-height: 100vh;
+    font-family: 'Actay Wide';
 }
+
+@font-face {
+    font-family: 'Actay';
+    src: url('/src/app/styles/fonts/Actay-Regular.eot') format('embedded-opentype'),
+        url('/src/app/styles/fonts/Actay-Regular.woff2') format('woff2'),
+        url('/src/app/styles/fonts/Actay-Regular.woff') format('woff'),
+        url('/src/app/styles/fonts/Actay-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Actay Condensed';
+    src: url('/src/app/styles/fonts/ActayCondensed-Thin.eot') format('embedded-opentype'),
+        url('/src/app/styles/fonts/ActayCondensed-Thin.woff2') format('woff2'),
+        url('/src/app/styles/fonts/ActayCondensed-Thin.woff') format('woff'),
+        url('/src/app/styles/fonts/ActayCondensed-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Actay';
+    src: url('/src/app/styles/fonts/Actay-RegularItalic.eot') format('embedded-opentype'),
+        url('/src/app/styles/fonts/Actay-RegularItalic.woff2') format('woff2'),
+        url('/src/app/styles/fonts/Actay-RegularItalic.woff') format('woff'),
+        url('/src/app/styles/fonts/Actay-RegularItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Actay Condensed';
+    src: url('/src/app/styles/fonts/ActayCondensed-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('/src/app/styles/fonts/ActayCondensed-ThinItalic.woff2') format('woff2'),
+        url('/src/app/styles/fonts/ActayCondensed-ThinItalic.woff') format('woff'),
+        url('/src/app/styles/fonts/ActayCondensed-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Actay Wide';
+    src: url('/src/app/styles/fonts/ActayWide-BoldItalic.eot') format('embedded-opentype'),
+        url('/src/app/styles/fonts/ActayWide-BoldItalic.woff2') format('woff2'),
+        url('/src/app/styles/fonts/ActayWide-BoldItalic.woff') format('woff'),
+        url('/src/app/styles/fonts/ActayWide-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Actay Wide';
+    src: url('/src/app/styles/fonts/ActayWide-Bold.eot') format('embedded-opentype'),
+        url('/src/app/styles/fonts/ActayWide-Bold.woff2') format('woff2'),
+        url('/src/app/styles/fonts/ActayWide-Bold.woff') format('woff'),
+        url('/src/app/styles/fonts/ActayWide-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
