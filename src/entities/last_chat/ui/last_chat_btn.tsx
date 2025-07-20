@@ -1,6 +1,14 @@
+import type { Chat } from "../model/types"
 
-export function LastChat({chatTitle}: {chatTitle: string}) {
+interface Props {
+    chat: Chat;
+    onClick?: (chatId: string) => void; 
+}
+
+export function ChatBtn ({ chat, onClick }: Props) {
     return (
-        <button className="flex gap-x-[10px] items-center"><img src="/chatIcon.svg" alt="" />{chatTitle}</button>
+        <button className="" onClick={() => onClick?.(chat.id)}><img src="/chatIcon.svg" alt="" />
+            {chat.title || 'No name'}
+        </button>
     )
 }
