@@ -1,1 +1,1 @@
-export { Settings } from './ui/Settings'
+export { SettingsBtn } from './ui/Settings'

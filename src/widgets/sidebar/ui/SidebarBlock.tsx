@@ -3,6 +3,7 @@ import { CreateChatBtn } from "../../../entities/create_chat_btn"
 import { SearchBtn } from "../../../entities/search_btn"
 import { ClearChat } from "../../../features/clear_chat"
 import { ChatList } from "../../ChatList"
+import { ModalBlock } from "../../../entities/Modal" 
 
 export function SideBar() {
     return (
@@ -18,7 +19,7 @@ export function SideBar() {
             </div>
             <ChatList/>
             <div className="flex flex-col justify-end px-[30px] gap-y-3 mb-auto">
-                <Link  className="flex w-full p-[10px] rounded-[50px] items-center gap-x-[10px] border-2 border-[#F6F6F6] hover:bg-[#4E59FF] hover:text-white transition-colors"><img src="/settings.svg" alt="Settings" />Settings</Link>
+                <ModalBlock />
                 <Link to='/account' className="flex w-full p-[10px] rounded-[50px] items-center gap-x-[10px] border-2 border-[#F6F6F6] hover:bg-[#4E59FF] hover:text-white transition-colors"><img className="w-[34px] h-[34px] rounded-full bg-black" src="" alt="" />Profile</Link>
             </div>
         </div>

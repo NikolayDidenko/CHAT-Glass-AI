@@ -1,1 +1,0 @@
-export { useSettingsBtn } from '../settings_open/model/store'
