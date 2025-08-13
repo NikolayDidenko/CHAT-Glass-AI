@@ -1,0 +1,1 @@
+export { PayLanding } from '../pay_landing/ui/payLanding'

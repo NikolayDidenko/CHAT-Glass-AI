@@ -1,0 +1,1 @@
+export { RegBtn } from '../regBtn/ui/regBtn'

@@ -1,0 +1,1 @@
+export { AppleBtn } from '../appleBtn/ui/appleRegBtn'

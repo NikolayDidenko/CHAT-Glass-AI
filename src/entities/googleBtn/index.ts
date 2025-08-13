@@ -1,0 +1,1 @@
+export { GoogleBtn } from '../googleBtn/ui/googleRegBtn'

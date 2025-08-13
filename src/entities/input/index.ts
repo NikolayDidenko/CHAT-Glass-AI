@@ -1,0 +1,1 @@
+export { InputTab } from '../input/ui/ChatTab'
